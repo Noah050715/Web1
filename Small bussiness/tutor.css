@@ -1,0 +1,97 @@
+body {
+    font-size: 100%; /* start value*/
+    margin: auto; /* centers the page */
+    max-width: 860px;
+    }
+    
+    section, header, footer {
+    outline: 1px solid rgb(102, 46, 0);
+    }
+    
+    header {
+    text-align: center;
+    }
+    
+    .startpage h1 {
+    font-size: 500%; /* Big title on the start page*/
+    }
+    
+    .tagline {
+    font-size: 120%;
+    padding: 0.5em; /* distance to the border*/
+    border-top: 3px double #ffffff;
+    border-bottom: 3px double #ffffff;
+    margin: 1em 0; /* distance downwards but not upwards*/
+    color: #ffffff;
+    }
+    
+    .menu h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #ff260060; /* very light gray*/
+    text-align: center;
+    box-shadow: inset 0 0 20px #270000;
+    border-radius: 100%;
+    color: #000000;
+    }
+    
+    .menu p {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    text-align: center;
+    color: #ffffff;
+    }
+    
+    .menu ul {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    }
+    
+    .head {
+    color: #ffffff;
+    }
+    
+    footer {
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    }
+    .startpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("https://images.unsplash.com/photo-1599418008396-0dc81842b75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .startpage header, .startpage footer {
+    flex: 0 0 100%;
+    }
+    
+    .startpage section {
+    flex: 0 0 30%;
+    }
+    .menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    
+    .menu a:focus
+    .menu a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    }
+    
+    .logo {
+    width: 600px;
+    height: auto;
+    }
+    
+    .li2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
